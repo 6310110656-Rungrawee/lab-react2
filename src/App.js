@@ -3,7 +3,7 @@ import './App.css';
 import WordCard from './WordCard';
 import CharacterCard from './CharacterCard';
 
-const word = "Hello"  
+const word = "REDVELVET"  
 function App() {
     return (
       <div>
