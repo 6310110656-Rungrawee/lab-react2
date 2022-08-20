@@ -1,1 +1,1 @@
-import CharacterCard from './CharacterCard';
+activationHandler
