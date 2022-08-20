@@ -1,6 +1,6 @@
 import React from "react";
 import classnames from "classnames";
-import imgCard from "./images/cover.png";
+import imgCard from "https://drive.google.com/file/d/1UEdWi_apRQH0_LOowaEJ9b5KkgfLIR6-/view?usp=sharing";
 import "./card.scss";
 
 const Card = ({ onClick, card, index, isInactive, isFlipped, isDisabled }) => {
@@ -16,12 +16,12 @@ const Card = ({ onClick, card, index, isInactive, isFlipped, isDisabled }) => {
       })}
       onClick={handleClick}
     >
-      <div className ="card-face card-font-face">
-        <img src = {imgCard} alt = "frontCard" />
+      <div className="card-face card-font-face">
+        <img src={imgCard} alt="frontCard" />
       </div>
 
       <div className="card-face card-back-face">
-        <img src = {card.image} alt = "backCard" />
+        <img src={card.image} alt="backCard" />
       </div>
     </div>
   );

@@ -187,7 +187,7 @@ export default function App() {
         aria-describeadby="alert-dialog-description"
       >
         <DialogTitle id="alert-dialog-title">
-          Yeah!! You win!
+            Yeah!!! You win!!!
         </DialogTitle>
 
         <DialogContent>
